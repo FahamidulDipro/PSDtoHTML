@@ -1,0 +1,419 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.nav_style{
+    background-color:#fff;
+    box-shadow: 0 10px 30px 0 rgba(138,155,165, 0.15);
+}
+
+.navbar-brand .image-fluid{
+    height: 80px;
+    margin-left:-50px;
+}
+.navbar-nav{
+    text-transform: uppercase;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:2px;
+    /* color:#ff7230; */
+    color:#333;
+    position: relative;
+    margin-top:40px;
+    align-items: center;
+  
+
+}
+.navbar-nav li a:before {
+    content:'';
+    position: absolute;
+    top:100%;
+    bottom:50%;
+    width:0%;
+    height:3%;
+    background:#ff7230;
+    transition: all 0.3s linear;
+}
+.navbar-nav li a:hover:before {
+    width:20%;
+    
+  
+}
+.navbar-nav li a:hover{
+    color: #ff7230 !important;
+}
+.navbar-nav li .active{
+    color:#ff7230 !important;
+}
+@media (max-width:998px){
+    .navbar-nav{
+        margin-top:40px;
+        align-items: center;
+    }
+    .navbar-nav li a:hover:before {
+        width:0%;
+      
+    }
+}
+
+/* Header Syle CSS */
+.header-text{
+    font-size: 25px;
+    color:#8c8c8c;
+    margin-top:80px;
+    margin-bottom:50px;
+}
+.header-text2{
+    color:#ff7230;
+    margin-bottom: 50px;
+}
+
+.hire_me{
+    background:#ff7230;
+    color:white;
+    width:160px;
+    height:40px;
+    text-transform:uppercase;
+    outline:none;
+    border:none;
+    transition:all 0.3s linear;
+}
+.about_me{
+    color:#ff7230;
+    width:160px;
+    height:40px;
+    text-transform:uppercase;
+    outline:1px solid #ff7230;
+    border:none;
+    transition:all 0.3s linear;
+}
+
+.hire_me:hover{
+    background:#fff;
+    color:#ff7230;
+    border:1px solid #ff7230;
+}
+.about_me:hover{
+    background:#ff7230;
+    color:#fff;
+}
+.header_mail p{
+    margin-top:40px;
+    font-size: 25px;
+}
+.header_mail p:nth-child(2){
+    margin:-20px;
+}
+.about_section{
+    padding-top:50px;
+}
+.main_title h1{
+    font-weight: 500;
+    font-size: 80px;
+    color:#000;
+    text-align:center;
+}
+.about_text{
+    margin-top: -30px;
+}
+.about_text h1{
+    font-size: 33px;
+    color:#000;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.about_text h2{
+    font-size: 33px;
+    color:#000;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.gd{
+    color:#ff7230;
+    font-weight: bold;
+}
+.expert_section{
+    padding-top: 50px;
+}
+.expert_section .pb_1{
+    width: 93%;
+    border-radius: 7px;
+    background-color:#e61c44;
+}
+.expert_section .pb_2{
+    width: 83%;
+    border-radius: 7px;
+    background-color:#fc7232;
+}
+.expert_section .pb_3{
+    width: 88%;
+    border-radius: 7px;
+    background-color:#009160;
+}
+.expert_section p{
+    position: relative;
+}
+.expert_h1:after{
+    content:"93%";
+    position: absolute;
+    top:10px;
+    right:13%;
+}
+.expert_h2:after{
+    content:"83%";
+    position: absolute;
+    top:10px;
+    right:13%;
+}
+.expert_h3:after{
+    content:"88%";
+    position: absolute;
+    top:10px;
+    right:13%;
+}
+.common_div{
+    margin-top:80px;
+}
+.service_list_icon{
+    color:#ff7230;
+    margin-left:20px;
+}
+/* Our Services Starts */
+.our_services{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.services_div{
+    background-color:#cecece;
+    padding:20px 10px 70px 10px;
+    margin-top:50px;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    position: relative;
+    box-shadow: 0 10px 30px 0 rgba(138,155,165, 0.15);
+}
+.services_div:hover{
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 grey;
+}
+.services_div h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color:#ff7230;
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: auto;
+    background-color:#ffeee6;
+  
+}
+.services_div:hover h1{
+    background-color:#fff;
+    border:1px solid #ff7230;
+}
+.fa-heart{
+    color:#fff;
+    position: absolute;
+    bottom:1px;
+    left:1px;
+}
+.services_div:hover .fa-heart{
+    color:#fc7232;
+}
+/* Hire Me section */
+.hire_me_section {
+    padding-bottom:45px;
+    padding-top:45px;
+    text-align:center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/lapi.jpg);
+    background-size: 100% 100%;
+    color:#fff;
+    background-attachment: fixed;
+}
+.hire_me_section h1{
+    color:#fc7230;
+   
+}
+/* Contact Us CSS */
+.contact_me_section{
+    padding:50px;
+    position: relative;
+    background-color: #e9e9e9;
+}
+.contact_img img{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:80%;
+    margin-bottom: 50px;
+}
+/* Contact Share Div */
+.contact_share_container{
+    background-color: rgb(177, 177, 177);
+    
+}
+.contact_share_div{
+    width:30%;
+    height:150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius:30px;
+    background-color:#ffeee6;
+    padding:20px;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.contact_share_div:hover{
+    background-color: #fff;
+    /* border:1px solid #ff8747; */
+    filter:drop-shadow(2px 0 8px rgba(0,0,0,0.18));
+    cursor: pointer;         
+}
+.contact_share_div:hover .fa{
+    color:#fc7232;
+}
+.contact_share_div:hover .far{
+    color:#fc7232;
+}
+.contact_share_div:hover .fab{
+    color:#fc7232;
+}
+.contact_share_div:hover p{
+    margin:0;
+}
+/* Social Sites Links */
+.socialsites-links .fa-facebook-f:hover{
+    color:#3b5998;
+    cursor: pointer;   
+}
+.socialsites-links .fa-instagram:hover{
+    color:#e4405f;
+    cursor: pointer;   
+}
+.socialsites-links .fa-dribbble:hover{
+    color:#ea4c89;
+    cursor: pointer;   
+}
+.socialsites-links .fa-pinterest:hover{
+    color:#bd081c;
+    cursor: pointer;   
+}
+.socialsites-links .fa-github:hover{
+    color:#fc7230;
+    cursor: pointer;   
+}
+/* Footer */
+footer{
+    line-height: 50px;
+    background-color:#fc7232;
+    color:#fff;
+    width:100%;
+
+}
+footer p{
+    margin:0;
+}
+
+
+.operator_img{
+    height: 350px;
+}
+.about_png{
+    height: 350px;
+}
+.wex2{
+    height: 350px;
+}
+@media (max-width:992px){
+    .main_title h1{
+        font-size: 40px;
+    }
+    .main_title h4{
+        font-size: 18px;
+    }
+    .about_text h1{
+        font-size: 20px;
+    }
+    .about_text h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .about_text{
+        margin-top:30px;
+    }
+    .about_text p{
+        line-height: 1.5;
+    }
+    .operator_img{
+        margin-top:60px;
+        height:150px;
+    }
+    .about_png{
+        height: 250px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .common_div{
+    
+        justify-content: center;
+        
+    }
+    .wex2{
+        height: 250px;
+        margin-top:50px;
+    }
+   .contact_me_section img{
+       display:none;
+   }
+   
+   .contact_me_section h4{
+       font-size: 16px;
+   }
+   .contact_resp{
+       margin:0!important;
+   }
+   .contact-inner{
+       margin:auto;
+   }
+   .contact_share_div{
+       height: 120px;
+       padding-top:10px;
+       margin:15px;
+   }
+   .about_text{
+    margin:auto;
+   }
+   .hire_me_section h3{
+        font-size: 20px;
+        letter-spacing: 0px;
+   }
+   .hire_me_section h1{
+       font-size: 30px;
+       word-spacing: 2px;
+   }
+   .hire_me_section h4{
+       font-size: 20px;
+       margin-top: 10px;
+       margin-bottom:30px;
+   }
+   .header-text{
+       font-size: 18px;
+   }
+   .header-text2{
+       font-size: 18px;
+   }
+   .hire_me{
+       width: 100px;
+       font-size: 13px;
+   }
+   .about_me{
+       width: 100px;
+       font-size: 13px;
+   }
+}
